@@ -26,5 +26,9 @@ def lifts():
 def races():
     return render_template('races.html')
 
+@app.route('/sliceoflife')
+def sliceoflife():
+    return render_template('sliceoflife.html')
+
 if __name__ == '__main__':
    app.run()

@@ -13,7 +13,7 @@
     <div id="container">
         <div id="sidebar">
             <img id="roundimg" src="{{ url_for('static', filename='app/content/picture.jpg') }}"
-                 style="width:250px;height:250px;border:0;border-radius: 5px;background: black;" />
+                 style="width:250px;height:250px;border:0;border-radius: 5px;background: black; width: 100%;" />
             <h2>Roosevelt Young</h2>
             <small>
                 <a href="mailto:roosevelt.young.jr@outlook.com">
@@ -23,9 +23,10 @@
             </small>
             <p>Software Engineer. I do Pacific Northwest stuff outside sometimes; usually found coding.</p>
             <p>
+                <a href="{{ url_for('index') }}">About</a><br>
+                <a href="{{ url_for('sliceoflife') }}">Slice of Life</a><br>
                 <a href="https://docs.google.com/document/d/1D--xSKKur6eMy-3UgwATxt84a0d3mAyZRrDcLjWysG8/edit?usp=sharing">Resume</a><br>
                 <a href="https://github.com/roosie">Github</a><br>
-                <a href="{{ url_for('index') }}">About</a><br>
                 <a href="/#Projects">Projects</a><br>
                 <a href="/#Courses">Courses</a><br>
                 <a href="{{ url_for('books') }}">Books</a><br>

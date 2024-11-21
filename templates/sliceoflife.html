@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+<h2><a id="Slice of Life">Slice of Life</a></h2>
+<p>Santa Monica!</p>
+<img id="roundimg" src="{{ url_for('static', filename='app/content/smile.jpg') }}"
+style="border:0;border-radius: 5px;background: black; width: 65%;" />
+
+<br><p>Climbing at Mt Erie Washington!</p>
+<img id="roundimg" src="{{ url_for('static', filename='app/content/climbhiker.jpg') }}"
+style="border:0;border-radius: 5px;background: black; width: 65%;" />
+
+<br><p>At a Suki Waterhouse show flashing the merch!</p>
+<img id="roundimg" src="{{ url_for('static', filename='app/content/model.jpg') }}"
+style="border:0;border-radius: 5px;background: black; width: 65%;" />
+
+<br><p>First Trip to Paris!</p>
+<img id="roundimg" src="{{ url_for('static', filename='app/content/paris.jpg') }}"
+style="border:0;border-radius: 5px;background: black; width: 65%;" />
+
+<br><p>Mountain Biking at Duthie!</p>
+<img id="roundimg" src="{{ url_for('static', filename='app/content/bike.jpg') }}"
+style="border:0;border-radius: 5px;background: black; width: 65%;" />
+
+<br><p>Touching the Snow!</p>
+<img id="roundimg" src="{{ url_for('static', filename='app/content/ski.jpg') }}"
+style="border:0;border-radius: 5px;background: black; width: 65%;" />
+
+<br><p>"They don't stay small forever!" Somtimes they do, RIP 2020</p>
+<img id="roundimg" src="{{ url_for('static', filename='app/content/taco.jpg') }}"
+style="border:0;border-radius: 5px;background: black; width: 65%;" />
+{% endblock %}
